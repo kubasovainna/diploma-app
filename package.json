@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.1.3",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "moodle-client": "^0.5.2"
+  },
+  "name": "diploma-app",
+  "description": "Веб-приложение для практической части ВКР",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubasovainna/diploma-app.git"
+  },
+  "author": "Inna Kubasova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kubasovainna/diploma-app/issues"
+  },
+  "homepage": "https://github.com/kubasovainna/diploma-app#readme"
+}
