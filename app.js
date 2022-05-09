@@ -206,7 +206,6 @@ async function getCourseForums(courseID) {
 		let forums = [];
 		courseContent.forEach(async (theme) => {
 			if (theme.modules.length != 0) {
-
 				theme.modules.forEach(async (module) => {
 					if (module.modname == 'forum') {
 						forums.push(await module);
@@ -214,7 +213,6 @@ async function getCourseForums(courseID) {
 				})
 			}
 		})
-
 		return forums;
 	} catch (err) {
 		console.log("Ошибка getCourseForums: Unable to initialize the client: " + err);
